@@ -1,6 +1,6 @@
 # Air-Quality-Monitoring-System-Using-ESP32-and-Blynk
 
-
+'''
 #define BLYNK_TEMPLATE_ID "TMPLwToQUqRw"
 #define BLYNK_TEMPLATE_NAME "Air Quality Monitoring"
 #define BLYNK_AUTH_TOKEN "C8Y7T0Fr54QF8pdfQ5dZsdfhhSdiQBFLj8mYe"
@@ -150,3 +150,4 @@ void loop()
     Blynk.logEvent("pollution_alert","Bad Air");
   }
  }
+'''
